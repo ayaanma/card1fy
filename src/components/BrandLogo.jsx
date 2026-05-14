@@ -19,7 +19,7 @@ export function BrandLogo({ onClick, size = 24 }) {
         <circle cx="12" cy="12" r="10" />
         <circle cx="12" cy="12" r="3" />
       </svg>
-      <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-0.5px" }}>cardify</span>
+      <span style={{ fontWeight: 900, fontSize: 18, letterSpacing: "-0.5px" }}>card1fy</span>
     </button>
   );
 }

@@ -2,8 +2,8 @@
 // Save this file as: api/spotify-search.js
 //
 // Add these environment variables in Vercel:
-// SPOTIFY_CLIENT_ID=your_cardify_spotify_client_id
-// SPOTIFY_CLIENT_SECRET=your_cardify_spotify_client_secret
+// SPOTIFY_CLIENT_ID=your_card1fy_spotify_client_id
+// SPOTIFY_CLIENT_SECRET=your_card1fy_spotify_client_secret
 
 let cachedToken = null;
 let cachedTokenExpiresAt = 0;
