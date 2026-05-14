@@ -1,34 +1,18 @@
-# card1fy split file structure
+# card1fy
 
-Use `src/App.jsx` as your main React entry component.
+card1fy is a web app that lets users create custom song cards from Spotify song data. Users can search for a song, choose a result, and generate a clean, poster-style card using the track’s album cover, title, artist name, duration, and explicit label when applicable.
 
-Backend proxy file:
+I created this application as I had manually created 75 of my own song cards on Adobe Illustrator to decorate my university dorm with and wanted a way to streamline the process.
 
-```txt
-api/spotify-search.js
-```
+## Features
 
-Add these environment variables in Vercel:
+- Search for songs using Spotify data
+- Generate song cards with album artwork, song title, artist name, timestamps, and playback-style icons
+- Automatically choose a background color based on the album cover
+- Customize the card background color and text/icon color
+- Use an eyedropper tool to pick colors
+- Adjust card width and height for export
+- Change spacing, image size, text size, icon size, pause button size, and progress bar thickness
+- Download the final card as a PNG
 
-```txt
-SPOTIFY_CLIENT_ID=your_card1fy_spotify_client_id
-SPOTIFY_CLIENT_SECRET=your_card1fy_spotify_client_secret
-```
-
-Recommended structure:
-
-```txt
-api/
-  spotify-search.js
-src/
-  App.jsx
-  components/
-  config/
-  data/
-  hooks/
-  services/
-  styles/
-  utils/
-```
-
-If your existing `main.jsx` imports `./App.jsx`, replace your current `src/App.jsx` with the one in this folder.
+card1fy was built to make it easy for users to turn songs into customizable visual cards. It is designed for personal creativity, digital posters, playlist graphics, and music-inspired design.
