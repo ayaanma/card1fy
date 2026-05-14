@@ -1,0 +1,55 @@
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background: #161616;
+}
+
+body {
+  display: block;
+  place-items: unset;
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: none;
+  padding: 0;
+  text-align: initial;
+}
+
+.songcard-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  outline: none;
+}
+
+.songcard-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #2a2a2a;
+  border: 1px solid rgba(255,255,255,0.12);
+  cursor: pointer;
+}
+
+.songcard-range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #2a2a2a;
+  border: 1px solid rgba(255,255,255,0.12);
+  cursor: pointer;
+}
+
+.songcard-range::-moz-range-track {
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+}
