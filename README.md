@@ -14,5 +14,3 @@ I created this application as I had manually created 75 of my own song cards on 
 - Adjust card width and height for export
 - Change spacing, image size, text size, icon size, pause button size, and progress bar thickness
 - Download the final card as a PNG
-
-card1fy was built to make it easy for users to turn songs into customizable visual cards. It is designed for personal creativity, digital posters, playlist graphics, and music-inspired design.
