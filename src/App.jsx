@@ -7,6 +7,7 @@ import { useExternalAssets } from "./hooks/useExternalAssets";
 import { searchSpotifyTracks } from "./services/spotify";
 import { shellStyle } from "./styles/sharedStyles";
 import { cleanSongTitle } from "./utils/format";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [phase, setPhase] = useState("search");
@@ -138,6 +139,7 @@ export default function App() {
           onDownload={handleDownload}
           err={err}
         />
+        <Analytics />
       </div>
     );
   }
@@ -154,6 +156,7 @@ export default function App() {
         onSelectTrack={handleSelectTrack}
         onHome={goHome}
       />
+      <Analytics />
     </div>
   );
 }
